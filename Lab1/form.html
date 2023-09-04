@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        h1 {text-align: center;}
+        h2 {text-align: center}
+        a {font-size: 20px }
+        p {font-size: 20px }
+        ul {font-size: 20px }
+        fieldset {font-size: 20px}
+    </style>
+</head>
+
+<body style = "background-color:#EFD672">
+    <h1>Лабораторна робота N1</h1>
+    <h2>Робота з формами</h2>
+    <h2>Виконав студент АнД-31 Швед Ілля</h2>
+    <a href = "index.html"> На головну сторінку</a>
+    <h3>Завдання</h3>
+    <p>Необхідно розробити форму для введення інформації про тварину. Необхідно заповнити наступні данні: </p>
+    <ul>
+        <li>
+            Дані про тварину, включають кличку тварини, тип(вибирається зі списку, наприклад, собака кішка і т.п.), дата народження, колір;
+        </li>
+        <li>
+            Дані про власника тварини, включають ПІБ, телефон, електрону адресу,вік (ціле число від 18 до 100).
+        </li>
+    </ul>
+    <form action = "", method = "POST">
+        <fieldset>
+            <legend> Тваринка </legend>
+            <label> Кличка Тваринки 
+                <input id = "animal_name" type="text">
+            </label>
+            <label> Тип Тваринки 
+                <select>
+                    <option> Кіт </option>
+                    <option> Собака </option>
+                    <option> Котопес </option>
+                    <option> Песокіт </option>
+                    <option> Велике поєднання кота та пса </option>
+                    <option> Динозавр </option>
+                    <option> Чудовисько </option>
+                    <option> Віддай мої Тапки! </option>
+                </select>
+            </label>
+            <label> Дата Народження
+                <input id = "birth_date" type="date">
+            </label>
+            <label> Колір Тваринки
+                <input id = "animal_colour" type="text">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend> Власник Тваринки </legend>
+            <label> ПІБ Власника 
+                <input id = "owner_name" type="text">
+            </label>
+            <label for="phone"> Номер телефону:
+                <input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{4}">
+            </label>
+            <label> Електронна Адреса
+                <input id = "owner_mail" type="text">
+            </label>
+            <label> Вік
+                <input id = "owner_mail" type="number" min="18" max="100" >
+            </label>
+        </fieldset>
+        <button type="submit">Відправити Заяву</button>
+    </form>
+</body>
+</html>
