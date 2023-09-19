@@ -1,0 +1,34 @@
+body {
+    background-color:#DDA0DD;
+    color:	#ffffff;
+}
+
+a{
+    color:#D2691E;
+}
+
+h1,h2{
+    text-align:center;
+}
+p {
+    font-size: 30px;
+}
+
+.p_blue_pointed {
+    color: blue;
+    text-decoration: underline;
+}
+.p_green_line{
+    color:green;
+}
+.bold_font {
+    font-weight:bold;
+}
+
+.img_left{
+    float:left;
+}
+.img_right{
+    float:right;
+    width:30%;
+}
