@@ -22,7 +22,7 @@ p,a {
     color:green;
 }
 .bold_font {
-    font-weight:bold;
+    font-weight:bold 40%;
 }
 
 .img_left{
