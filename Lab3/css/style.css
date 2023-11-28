@@ -1,0 +1,23 @@
+@import url(base.css);
+@import url(content.css);
+@import url(footer.css);
+@import url(header.css);
+@import url(menu.css);
+@import url(reset.css);
+@import url(style.css);
+
+body {
+    margin: auto;
+    max-width: var(--width);
+}
+
+.container{
+    width: var(--width);
+    background-color: var(--color-darkgreen);
+    color: var(--color-white);
+    font-family: var(--font-family-text);
+    font-size: var(--font-size-p);
+}
+.text_border{
+    text-shadow: 1px 0 1px var(--color-darkgreen), 0 1px 1px var(--color-darkgreen), -1px 0 1px var(--color-darkgreen), 0 -1px 1px var(--color-darkgreen)
+}

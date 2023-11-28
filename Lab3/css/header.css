@@ -1,0 +1,31 @@
+.header{
+    height: var(--height-header);
+    border-top: 1px solid var(--color-white);
+}
+
+.header_img{
+    width:var(--img);
+    height:var(--img);
+    mix-blend-mode: overlay;
+    display: inline-block;
+}
+
+.header_h1{
+    display:inline-block;
+    font-size: var(--font-size-h1);
+    font-family: var(--font-family-h);
+    width: 1220px;
+    color: var(--color-darkgreen);
+    font-weight: bold;
+    text-aling: center;
+    position: absolute;
+    left: 250px;
+    z-index: 5px;
+    padding-top: 37px;
+}
+
+.header_img__left{
+    background: url(../img/csm_Medieval_Students.png) no-repeat;
+    background-color: cover;
+    margin-left: 46px;
+}

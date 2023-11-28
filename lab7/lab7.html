@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link type="text/css" rel="stylesheet" href="lab7.css">
+  <script src="lab7.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Лабораторна робота №2</h1>
+    <h2>Швед Ілля</h2>
+  </header>
+  <ul class="navbar">
+    <li><a href="">Лабораторна робота №1</a></li>
+    <li><a href="">Лабораторна робота №2</a></li>
+    <li><a href="">Лабораторна робота №3</a></li>
+    <li><a href="">Лабораторна робота №4</a></li>
+    <li><a href="">Лабораторна робота №5</a></li>
+  </ul>
+  <h2>
+    <br>Завдання лабораторної
+  </h2>
+  <div class="b-task">
+    <br>На Вашій сторінці є поле введення. При наведенні мишки на нього
+    мишку вивести додаткову інформацію про це поле.
+    <br>Ввести No квартири (з клавіатури), No під’їзду і поверх (поля
+    вводу). У будинку 3 під‘їзди, 9 поверхів і 108 квартир.
+    <br>Проаналізувати правильність введення даних і видати відповідне
+    повідомлення.
+    <br><label for="поле_введення">Введіть щось:</label>
+    <input type="text" id="поле_введення" name="поле_введення" onmouseover="show()">
+  </div>
+  <div>
+    <label>Номер квартири<input type="text" id="flat"> </label>
+    <label>Номер під’їзду<input type="text" id="entrance"> </label>
+    <label>Поверх<input type="text" id="floor"> </label>
+  </div>
+  <button id="verify" onclick="print()">Ввести</button>
+  <div id="result"></div>
+</body>
+</html>

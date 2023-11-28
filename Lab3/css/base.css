@@ -1,0 +1,29 @@
+@font-face{
+    font-family:"Canterbury";
+    src:url("Fonts/Canterbury.ttf");
+    font-weight:normal;
+    font-style:normal;
+}
+
+:root{
+    --color-brown:#D3C8B4;
+    --color-darkgreen: #51626A;
+    --color-white: #FFFFFF;
+    --font-family-h:"Canterbury";
+    --font-family-text: "Canterbury";
+    --font-size-h1: 64px;
+    --font-size-h2: 32px;
+    --font-size-menu: 28px;
+    --font-size-p: 22px;
+
+    --width:1440px;
+    --width-sidebar: 440px;
+    --width-main: 1000px;
+    --height-menu:100px;
+    --height-header:250px;
+    --height-footer:70px;
+    --img:250px;
+
+    --padding-left: 120px;
+    --padding-text: 250px;
+}

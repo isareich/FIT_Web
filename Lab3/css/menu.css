@@ -1,0 +1,21 @@
+.menu {
+    height: var(-- height-menu);
+    padding-left: var(--padding-left);
+    font-family: var(--font-family-h);
+    font-size: var(--front-size-menu);
+    font-weight: bold;
+    padding-top:35px;
+}
+.menu ul li{
+    display: inline-block;
+    padding-right: 35px;
+}
+
+.menu ul li a{
+    color: var(--color-darkgreen);
+}
+
+.menu ul li a:hover{
+    color: var(--color-darkgreen);
+    text-decoration: underline;
+}

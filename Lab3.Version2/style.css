@@ -1,0 +1,215 @@
+.box {
+    width: 1920px;
+    height: 1080px;
+    background-color: #d3c8b4;
+  }
+
+body{
+    width: 1920px;
+    height: 1080px;
+}
+  
+  .box .group {
+    position: fixed;
+    width: 1938px;
+    height: 1080px;
+    top: 0;
+    left: 0;
+  }
+  
+  .box .overlap-group {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background-color: #d3c8b4;
+  }
+  
+  .box .pagina-personalis {
+    position: absolute;
+    width: 730px;
+    top: -20px;
+    left: 70px;
+    font-family: "Cambria-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .text-wrapper {
+    position: absolute;
+    width: 225px;
+    top: 60px;
+    left: 900px;
+    font-family: "Cambria-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .div {
+    position: absolute;
+    width: 340px;
+    top: 60px;
+    left: 1200px;
+    font-family: "Cambria-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .text-wrapper-2 {
+    position: absolute;
+    width: 170px;
+    top: 60px;
+    left: 1600px;
+    font-family: "Cambria-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .overlap {
+    position: absolute;
+    width: 1789px;
+    height: 923px;
+    top: 137px;
+    left: 74px;
+  }
+  
+  .box .csm-medieval {
+    position: absolute;
+    width: 729px;
+    height: 561px;
+    top: 17px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .box .overlap-2 {
+    position: absolute;
+    width: 1752px;
+    height: 923px;
+    top: 0;
+    left: 37px;
+  }
+  
+  .box .overlap-3 {
+    position: absolute;
+    width: 1003px;
+    height: 906px;
+    top: 0;
+    left: 749px;
+  }
+  
+  .box .student-biography-i {
+    position: absolute;
+    width: 1003px;
+    top: 0;
+    left: 0;
+    font-family: "Cambria-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .span {
+    color: #000000;
+  }
+  
+  .box .text-wrapper-3 {
+    color: #3e1515;
+    font-size: 30px;
+  }
+  
+  .box .text-wrapper-4 {
+    color: #000000;
+    font-size: 30px;
+  }
+  
+  .box .text-wrapper-5 {
+    color: #3d1414;
+    font-size: 30px;
+  }
+  
+  .box .OIG {
+    position: absolute;
+    width: 769px;
+    height: 425px;
+    top: 481px;
+    left: 117px;
+    object-fit: cover;
+  }
+  
+  .box .top-scholar-honors {
+    position: absolute;
+    width: 752px;
+    top: 843px;
+    left: 0;
+    font-family: "Cambria-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .text-wrapper-6 {
+    color: #3e1515;
+  }
+  
+  .box .lessons-schedule {
+    position: absolute;
+    width: 744px;
+    top: 595px;
+    left: 19px;
+    font-family: "Cambria-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .monday-tuesday {
+    position: absolute;
+    top: 646px;
+    left: 19px;
+    font-family: "Cambria-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .text-wrapper-7 {
+    position: absolute;
+    width: 699px;
+    top: 772px;
+    left: 15px;
+    font-family: "Cambria-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  

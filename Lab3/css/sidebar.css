@@ -1,0 +1,5 @@
+.sidebar{
+    width: var(--width-sidebar);
+    float: right;
+    clear: both;
+}
