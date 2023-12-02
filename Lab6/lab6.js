@@ -74,7 +74,6 @@ function print() {
         html = html + "<td>Ні</td>";
       }
   
-      
   
       html = html + "</tr>";
     });
