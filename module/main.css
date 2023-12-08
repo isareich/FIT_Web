@@ -1,0 +1,118 @@
+.background-image {
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    padding: 0;
+    position: relative;
+    height: 300px;
+}
+
+.header-image {
+    background-image: url('2.jpg');
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.navbar {
+    margin-right: 10px;
+}
+
+.navbar-nav {
+    text-align: right;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 10px;
+    font-size: 32px;
+    color: #ffffff
+}
+.navbar-nav .nav-link {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+.search-bar,
+.menu-bar {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+}
+.search-bar .input-group-append {
+    float: right;
+  }
+.menu-bar {
+    top: 20px;
+    right: 20px;
+}
+
+.search-bar {
+    top: 20px;
+    left: 20px;
+}
+
+.logo-container {
+    position: absolute;
+    top: 75px;
+    height: 40%;
+}
+.main-content {
+    display: flex;
+    height: 800px;
+    background-color: bisque;
+}
+
+.left-text {
+    max-width: 400px;
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 10px; 
+}
+
+.right-content img {
+    max-width: 100%; 
+}
+
+h3 {
+    margin-left: 100px;
+}
+
+footer {
+    background-image: url('4.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: white; 
+    padding: 20px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.right-button {
+    background-color: white;
+    color: black;
+}
+
+.green-button {
+    background-color: green;
+}
+
+.yellow-button {
+    background-color: yellow;
+}
